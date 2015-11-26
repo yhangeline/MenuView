@@ -22,3 +22,5 @@
  *  @param completion 隐藏后block
  */
 - (void)dismissMenuView:(dismissCompletion)completion;
+
+![Aaron Swartz](https://github.com/yhangeline/MenuView/edit/master/1.png)
