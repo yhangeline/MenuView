@@ -23,4 +23,4 @@
  */
 - (void)dismissMenuView:(dismissCompletion)completion;
 
-![Aaron Swartz](https://github.com/yhangeline/MenuView/edit/master/1.png)
+![Aaron Swartz](https://github.com/yhangeline/MenuView/blob/master/1.png)
