@@ -22,9 +22,8 @@
  *  @param completion 隐藏后block
  */
 - (void)dismissMenuView:(dismissCompletion)completion;
-<<<<<<< Updated upstream
 
-![Aaron Swartz](https://github.com/yhangeline/MenuView/blob/master/1.png)
-=======
+
+
 ![daizi](1.png)
->>>>>>> Stashed changes
+
