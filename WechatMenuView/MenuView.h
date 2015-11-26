@@ -40,7 +40,11 @@ typedef enum : NSUInteger {
  */
 - (id)initWithTitleArray:(NSArray*)titleArray imageArray:(NSArray*)imageArray origin:(CGPoint)origin width:(CGFloat)width rowHeight:(CGFloat)rowHeight Direct:(TriangleDirection)triDirect;
 
-
+/**
+ *  隐藏
+ *
+ *  @param completion 隐藏后block
+ */
 - (void)dismissMenuView:(dismissCompletion)completion;
 
 @end
