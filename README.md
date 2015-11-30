@@ -2,7 +2,7 @@
 # MenuView
 ##类似微信的黑色菜单控件
 
-![daizi](1.png)
+![daizi](1.gif)
 
 ```
 /**
