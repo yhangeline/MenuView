@@ -88,6 +88,9 @@
     if ([self.delegate respondsToSelector:@selector(MenuItemDidSelected:indexPath:)]) {
         [self.delegate MenuItemDidSelected:tableView indexPath:indexPath];
     }
+    if (self.selectedBlock) {
+        self.selectedBlock(indexPath.row);
+    }
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self dismissMenuView:nil];
 }

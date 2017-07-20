@@ -28,6 +28,8 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, assign) id<MenuViewDelegate>delegate;
 
+@property (nonatomic, copy) void(^selectedBlock)(NSInteger index);
+
 /**
  *  初始化方法
  *
